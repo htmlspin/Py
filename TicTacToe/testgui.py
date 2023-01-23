@@ -4,6 +4,8 @@ layout = [[pg.Text("Hello World")], [pg.Button("OK")]]
 
 window = pg.Window("Test", layout)
 
+pg.popup('This is a pop up, welcome to my test program') 
+
 while True:
     event, values = window.read()
 
